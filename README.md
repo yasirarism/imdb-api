@@ -13,7 +13,7 @@
 
 Installation is pretty easy and straight forward. Click the button below to get started.
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/tuhinpal/imdb-api)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/yasirarism/imdb-api)
 
 - After deployed Open [Cloudflare Worker](https://workers.cloudflare.com "Cloudflare Worker") Page
 - Click on KV
