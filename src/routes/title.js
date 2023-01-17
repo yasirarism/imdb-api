@@ -21,9 +21,7 @@ title.use("/:id", async (c, next) => {
 });
 
 title.get("/:id", async (c) => {
-  let id = c.req.query("id");
-  if (!id) throw new Error("id param is required. Example: https://imdb.yasirapi.eu.org/search?query=doraemon");
-  // const id = c.req.param("id");
+  const id = c.req.param("id");
 
   try {
     let parser = new DomParser();
