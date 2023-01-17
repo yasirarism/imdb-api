@@ -9,7 +9,7 @@ search.get("/", async (c) => {
     if (!query) throw new Error("Query param is required");
 
     let data = await apiRequestJson(
-      `https://v3.sg.media-imdb.com/suggestion/x/${query}.json?includeVideos=0`
+      `https://v3.sg.media-imdb.com/suggestion/titles/x/${query}.json`
     );
 
     let response = {
@@ -58,6 +58,7 @@ search.get("/", async (c) => {
     });
 
     response.message = `Found ${titles.length} titles`;
+    response.about = `Don't forget to join Telegram Channel @YasirPediaChannel.`
     response.results = titles;
 
     return c.json(response);

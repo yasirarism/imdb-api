@@ -124,6 +124,8 @@ title.get("/:id", async (c) => {
       }
     } catch (error) {}
 
+    response.about = `Don't forget to join Telegram Channel @YasirPediaChannel.`
+    
     if (!config.cacheDisabled) {
       try {
         await CACHE.put(id, JSON.stringify(response), { expirationTtl: 86400 });

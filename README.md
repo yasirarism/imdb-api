@@ -36,4 +36,4 @@ Installation is pretty easy and straight forward. Click the button below to get 
 - Licensed under [Apache-2.0](https://github.com/tuhinpal/imdb-api/blob/master/LICENSE)
 - Made by [Tuhin Kanti Pal](https://github.com/tuhinpal)
 
-### Have a good day  🤘
+### Have a good day 🤘
