@@ -6,7 +6,7 @@ const search = new Hono();
 search.get("/", async (c) => {
   try {
     let query = c.req.query("query");
-    if (!query) throw new Error("Query param is required");
+    if (!query) throw new Error("Query param is required. Example: https://imdb.yasirapi.eu.org/search?query=doraemon");
 
     let data = await apiRequestJson(
       `https://v3.sg.media-imdb.com/suggestion/titles/x/${query}.json`
